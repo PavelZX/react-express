@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import TableRow from './TableRow';
+import TableRow from './tablerow';
 
-export default class Index extends Component {
+export default class Show extends Component {
 
   constructor(props) {
       super(props);
