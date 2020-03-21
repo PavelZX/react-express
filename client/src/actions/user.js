@@ -1,5 +1,5 @@
-import * as types from '../constants/action_types'
-import { API_CALL, POST, GET, PUT, DELETE } from '../constants/api_types'
+import * as types from '../constants/action_types';
+import { API_CALL, POST, GET, PUT, DELETE } from '../constants/api_types';
 
 
 export const getProfileFetch = () => {

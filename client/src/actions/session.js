@@ -1,6 +1,6 @@
-import { push }                           from 'react-router-redux'
-import Constants                          from '../constants'
-import { httpGet, httpPost, httpDelete }  from '../../utils'
+import { push }                           from 'react-router-redux';
+import Constants                          from '../constants';
+import { httpGet, httpPost, httpDelete }  from '../../utils';
 
 export const userLoginFetch = user => {
   return dispatch => {

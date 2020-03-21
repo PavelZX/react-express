@@ -14,7 +14,7 @@ api.get("/", (req, res) => {
   res.json({ message: "Welcome!" });
 });
 
-require("./api/routes/object.routes.js")(api);
+require("./api/routes/routes.js")(api);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 4000;
